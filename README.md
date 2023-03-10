@@ -28,6 +28,11 @@ For more information and a list of available commands
 gh projects -h
 ```
 
+## Access tokens
+To use this plugin you need to use an Access Token that has at least the scope `read:org` for reading the projects at the organization level. When using a Personal Access Token, make sure to use a Clasic token, and NOT a new fine grained token (those do not have access to the GraphQL API that is used).
+
+For adding issues or pull requests to a repo, you need to give the Access Token the following scope: `TODO`.
+
 ## Additional Resources
 
 - [About Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
